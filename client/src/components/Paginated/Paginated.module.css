@@ -1,0 +1,19 @@
+.pag {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: auto;
+    
+}
+
+.butt {
+    color: rgb(150, 144, 131);
+    background-color: black;
+    border-radius: 10%;
+    border-color: rgb(150, 144, 131);
+    height: 150%;
+    transition: background-color .3s;
+    border: solid 1px
+};
+

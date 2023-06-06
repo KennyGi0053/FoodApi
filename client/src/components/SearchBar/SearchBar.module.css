@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    width: 100%;
+    right: 220px;
+}
+
+.input {
+
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid #ccbfaf;
+    background-color: transparent;
+    color: #ccbfaf;
+    position: absolute;
+    left: 35%;
+}
+
+.button {
+
+    padding: 5px;
+    margin: 0px;
+    width: 100px;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid #ccbfaf;
+    background-color: transparent;
+    color: #ccbfaf;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    position: relative;
+    left: 52%;
+    top: -5px;
+    
+}
+
+.button:hover{
+    background-color: #a08a86;
+    color: white;
+    border: 2px solid #ad8f8a
+}

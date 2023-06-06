@@ -9,9 +9,9 @@ module.exports = (sequelize) => {
             primaryKey: true
         },
         name: {
-            type: DataTypes.STRING,
-            unique: true,
-            allowNull: false
+         type: DataTypes.STRING,
+        allowNull: false,
+         unique: true
         }
     }, {
         timestamps: false

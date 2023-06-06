@@ -1,0 +1,38 @@
+.Container{
+    position: absolute;
+    padding: 1px;
+    margin: 0px;
+    width: 1300px;
+    font-size: large;
+    top: 1%;
+   
+    background-color: rgb(53, 49, 49);
+    color: rgb(87, 53, 2);
+    
+    background-color: transparent !important;
+    
+}
+
+.button {
+    
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid #83796b;
+    background-color: transparent;
+    color: #ccbfaf;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 118px;
+    right: 90px;
+}
+
+
+.button:hover {
+    background-color: #796464;
+    color: rgb(245, 243, 239);
+  }

@@ -1,0 +1,126 @@
+.general{
+  
+    text-align: center;
+    background-image: url('../../gifcreate.gif');
+    
+    background-size: 100% 100%;
+    height: 100vh;
+     background-position: 100%;
+     margin: 0;
+    padding: 10%;
+   }
+   
+   .form{
+
+    background-color: rgb(24, 21, 21); 
+    background-color: rgba(24, 22, 22, 0.4);
+    color: rgb(54, 49, 49);
+    border: 1px solid #0f0909;
+    border-radius: 1rem;
+    position: absolute;
+    /* height: 40vh; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 120px;
+    height: 60%;
+   }
+
+  h1 {
+    color: blanchedalmond;
+     font-family: 'Droid serif', serif; 
+     font-size: 36px; 
+     font-weight: 400; 
+     font-style: italic; 
+     line-height: 60px; 
+     margin: 0 0 12px; 
+     
+  }
+
+  label{
+      
+    font-style: italic;
+    font-family: 'Droid serif', serif;
+    font-size: x-large;
+    font-weight: 100;
+    color: blanchedalmond;
+    margin-top: 100%;
+    padding: 1%;
+    line-height: 50px;
+}
+
+.diets {
+      background: transparent;
+    margin: 5px 0;
+    padding: 5px 0;
+    font-size: large;
+    color: rgb(194, 177, 156);
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+.dietsop {
+  font-family: Verdana,Arial;
+	font-size: 12px;
+	background-color: #e9e9e9;
+}
+
+
+
+.buttonc {
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid rgb(100, 61, 1);
+    background-color: white;
+    color: rgb(87, 53, 2);
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.buttonc:hover {
+    background-color: #4d3502;
+    color: blanchedalmond;
+  }
+
+  .buttonb {
+    margin: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px rgb(153, 105, 3);
+    color: rgb(126, 77, 4);
+    padding: 2%;
+    cursor: pointer;
+  }
+  .buttonb:hover {
+    background-color: #4d3502;
+    color: blanchedalmond;
+  }
+
+  .error{
+    color: rgb(233, 10, 10);
+    font-weight: bold;
+   
+   }
+
+   .input {
+    float: right;
+    width: 50%;    
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 6px;
+    transition: width .35s ease-in-out;
+    background: transparent;
+    color: blanchedalmond;
+    font-size: large;
+   }
+
+   .labeln {
+height: 5%;   }
